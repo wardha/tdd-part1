@@ -1,8 +1,7 @@
 package TDDPart1Classes;
 
 
-public class Dollar {
-	private int amount ;
+public class Dollar extends Money{
 	public Dollar() {
 		// TODO Auto-generated constructor stub
 	}
@@ -15,9 +14,13 @@ public class Dollar {
 		 return new Dollar(amount * multiplier);
 		}
 
-	public boolean equals(Object object) {
+	/*public boolean equals(Object object) {
 		 Dollar dollar= (Dollar) object;
 		 return amount == dollar.amount;
+		}*/
+	public boolean equals(Object object) {
+		 Money money= (Money) object;
+		 return amount == money.amount;
 		}
 
 }
