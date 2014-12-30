@@ -11,9 +11,6 @@ public class Franc extends Money {
 		 Franc franc= (Franc) object;
 		 return amount == franc.amount;
 		 }*/
-		 public boolean equals(Object object) {
-			 Money money= (Money) object;
-			 return amount == money.amount;
-			}
+		 
 
 }
