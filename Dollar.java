@@ -2,7 +2,7 @@ package TDDPart1Classes;
 
 
 public class Dollar {
-	public int amount ;
+	private int amount ;
 	public Dollar() {
 		// TODO Auto-generated constructor stub
 	}
